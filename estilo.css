@@ -1,0 +1,116 @@
+/* Estilos para el contenedor y la imagen */
+.portada {
+    position: relative;
+    text-align: center;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para los mensajes */
+.n_barrio {
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.n_localidad {
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.n_barrio {
+    position: absolute;
+    font-size: 3em;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.n_localidad {
+    position: absolute;
+    font-size: 2.0em;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Estilos generales para las pestañas */
+.tabs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el contenido de las pestañas */
+.contenido {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.contenido h2 {
+    font-size: 2em;
+}
+
+/* Mostrar la primera pestaña por defecto */
+#contenido1 {
+    display: block;
+}
+
+#contenido2 {
+    display: block;
+}
+
+
+#contenido3 {
+    display: block;
+}
+
+#contenido4 {
+    display: block;
+}
+
+#contenido5 {
+    display: block;
+}
+
+#contenido6 {
+    display: block;
+}
+
+
+.buttons{
+
+    background-color: green;
+    color : white;
+    height: 40px;
+    width: 120 px;
+    font-size: 25px;
+
+}
+
+#map { height: 100%; }
