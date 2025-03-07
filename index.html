@@ -32,20 +32,44 @@
     </div>
     <div class="contenido" id="contenido5">
         <h2>Lo mejor de Simon Bolivar</h2>
-        <p>Este es el contenido de la tercera pestaña.</p>
+        <p> <div id="map2"></div>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+            <link rel="stylesheet" href="estilo.css">
+            <div class="container">
+                <div id="imagenes" class="imagenes">
+                    <h2>Imágenes Relacionadas</h2>
+                    <div id="imagenes-container">
+                    
+                    </div>
+                </div>
+            </div>
+
+        </p>
     </div>
     <div class="contenido" id="contenido6">
         <h2>Los arboles de Simon Bolivar</h2>
         <p> <div id="map"></div>
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
             <link rel="stylesheet" href="estilo.css">
             <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
-            </div>
-
-            <button class="buttons" id ="btnTrees">Arboles</button>
+           
         </div>
-
+            <button class="buttons" id ="btnTrees">Arboles</button>
+            <button class="buttons" id ="btnDistance">Distancia</button>
+        </div>
+        <script src="programa.js"></script>
         </p>
     </div>
 

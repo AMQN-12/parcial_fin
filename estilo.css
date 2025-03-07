@@ -114,3 +114,31 @@
 }
 
 #map { height: 100%; }
+
+#map2 { 
+    width: 50%;
+    height: 100%;
+ }
+
+ .imagenes {
+    width: 50%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+#imagenes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para las imágenes */
+#imagenes-container img {
+    width: 80%;
+    margin-bottom: 20px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
